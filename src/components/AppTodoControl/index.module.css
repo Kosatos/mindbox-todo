@@ -1,0 +1,11 @@
+.control {
+  @apply flex items-center justify-between gap-4 p-3 bg-white border-t-2 border-gray-200 text-gray-400;
+}
+
+.control__togglers {
+  @apply flex gap-2;
+}
+
+.control__clear {
+  @apply p-1 hover:text-amber-300 transition-colors;
+}

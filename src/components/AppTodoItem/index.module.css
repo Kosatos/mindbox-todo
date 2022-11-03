@@ -1,0 +1,22 @@
+.task {
+  @apply w-full py-4 pl-16 pr-4 text-2xl text-gray-600 bg-white list-none relative;
+}
+
+.task:not(:last-child) {
+  @apply border-b-2 border-gray-200;
+}
+
+.task__action {
+  @apply w-8 h-8 border-2 border-gray-300 rounded-full absolute top-1/2 left-3 -translate-y-1/2 cursor-pointer hover:border-gray-400 transition-colors bg-no-repeat bg-contain bg-center;
+}
+
+.task__action_completed {
+  @apply bg-[url('../../img/icons/completed-icon.svg')] bg-[length:25px];
+}
+
+.task__content {
+}
+
+.task__content_completed {
+  @apply opacity-30 line-through;
+}

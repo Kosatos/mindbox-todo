@@ -1,0 +1,7 @@
+.form {
+  @apply w-full shadow-lg mb-1;
+}
+
+.form__input {
+  @apply w-full py-5 pl-16 pr-4 text-2xl text-gray-600 placeholder:italic placeholder:text-gray-300 focus:outline-none;
+}
